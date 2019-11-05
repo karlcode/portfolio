@@ -7,20 +7,22 @@
 }
 
 .menu {
+    display: flex;
     flex-direction: column;
     width: 30vmin;
-    justify-content: center;
+    height: 100%;
     text-align: center;
+    justify-content: center;
 }
+
 .portfolio-links {
     list-style: none;
     width: 100%;
-    padding: 30px;
     background: #eee;
     flex: 1;
     flex-direction: column;
     list-style: none;
-    margin: 30px;
+
     vertical-align: center;
 }
 
@@ -29,8 +31,6 @@ li {
     border-radius: 5px;
     height: 40px;
     width: 100%;
-    min-width: 70%;
-    max-width: 1440px;
     opacity: 0;
     margin-bottom: 10px;
     transform-origin-y: 0%;
