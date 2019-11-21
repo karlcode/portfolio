@@ -16,14 +16,15 @@
 }
 
 .portfolio-links {
-    list-style: none;
-    width: 100%;
-    background: #eee;
     flex: 1;
     flex-direction: column;
     list-style: none;
-
-    vertical-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    list-style: none;
+    justify-content: center;
 }
 
 li {
@@ -32,7 +33,6 @@ li {
     height: 40px;
     width: 100%;
     opacity: 0;
-    margin-bottom: 10px;
     transform-origin-y: 0%;
     padding: 20px;
     cursor: pointer;
