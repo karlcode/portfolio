@@ -15,7 +15,7 @@ function App() {
     const [showList, setVisible] = useState("hidden");
     return (
         <div className="App">
-            <div className="menu">
+            <div className="App__menu">
                 {/* <img src={logo}  className="App-logo" alt="logo" /> */}
                 <motion.div
                     onHoverStart={() => setVisible("visible")}

@@ -1,18 +1,18 @@
 .App {
     display: flex;
     background: #eee;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     flex-direction: row;
-}
 
-.menu {
-    display: flex;
-    flex-direction: column;
-    width: 30vmin;
-    height: 100%;
-    text-align: center;
-    justify-content: center;
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        width: 30vmin;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+    }
 }
 
 .portfolio-links {
@@ -36,6 +36,7 @@ li {
     transform-origin-y: 0%;
     padding: 20px;
     cursor: pointer;
+    margin: 10px;
 }
 li:nth-child(1) {
     background: #f69a9a;

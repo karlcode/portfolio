@@ -39,7 +39,7 @@ const Homepage = (props: any) => {
                     whileHover="opened"
                     onClick={namedFunction}
                 >
-                    <SecondScreen>{{element}}</SecondScreen>
+                    <SecondScreen></SecondScreen>
                 </motion.li>
             ))}
         </motion.ul>
